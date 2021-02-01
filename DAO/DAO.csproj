@@ -52,9 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
-    <Compile Include="Migrations\202101311942275_InitialCreate.cs" />
-    <Compile Include="Migrations\202101311942275_InitialCreate.designer.cs">
-      <DependentUpon>202101311942275_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\202102010136218_InitialCreate.cs" />
+    <Compile Include="Migrations\202102010136218_InitialCreate.designer.cs">
+      <DependentUpon>202102010136218_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\Seed\SeedProduto.cs" />
@@ -78,8 +78,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202101311942275_InitialCreate.resx">
-      <DependentUpon>202101311942275_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202102010136218_InitialCreate.resx">
+      <DependentUpon>202102010136218_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,7 +13,7 @@ namespace DAO.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202101311942275_InitialCreate"; }
+            get { return "202102010136218_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source

@@ -14,6 +14,7 @@
                         Id = c.Long(nullable: false, identity: true),
                         Nome = c.String(maxLength: 100),
                         Valor = c.Double(nullable: false),
+                        Imagem = c.String(),
                     })
                 .PrimaryKey(t => t.Id);
             

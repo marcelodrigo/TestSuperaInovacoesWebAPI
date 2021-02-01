@@ -14,6 +14,6 @@ namespace Model.Entity.DB
 
         public double Valor { get; set; }
 
-        //public string Imagem { get; set; }//XXXXX//
+        public string Imagem { get; set; }
     }
 }
